@@ -26,7 +26,8 @@ public class Validacao {
         } while (res.length() < min || res.length() > max);
         return res;
     }
-    
+
+
     public static char validarChar(String msg){
         String res="";
         do {
